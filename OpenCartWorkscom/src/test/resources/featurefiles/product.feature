@@ -3,8 +3,8 @@ Feature: Verifying opencartworks product functionalities
   Scenario: User can search a particular product
     Given user is on homepage
     When user clicks on search bar
-    And when user enters a particular product
-    Then user can view the search result page
+    And when user enters a product name
+    Then user can view the search result page with the product specified
 
     Scenario: User can compare two products successfully
       Given user is on homepage

@@ -30,7 +30,7 @@ Feature: Verify User login Functionality
   Scenario: User successfully logins with social account
 
       Given user is on homepage
-      When user clicks on login button
+      When user clicks on login with your social account icon
       And user enters valid details as <E-mail Address> and <Password>
       Then user should be able to login successfully
 

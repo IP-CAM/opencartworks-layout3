@@ -1,5 +1,6 @@
 Feature: Verifying Shopping cart functionalities
 
+
   Scenario: User adds a product to the cart successfully
   Given user is on product page
   When user selects the size/colour/quantity
@@ -27,6 +28,8 @@ And he can see the product in the shopping basket
 
   Scenario: Verify user can update the shopping basket
     Given user added a product on shopping cart
-    When user clicks on update a product icon
+    When user changes quantity of a product
+    And clicks on update a product icon
     Then the product should be removed from the basket
+
 

@@ -11,10 +11,7 @@ Given user is on homepage
 When user clicks on a social media
 Then user should be navigated to corresponding social media
 
-Scenario: User can scroll the webpage
-Given user is on homepage
-When user scrolls up or down
-Then the webpage should move accordingly
+
 
   Scenario: User can write an email by clicking email link
     Given User is on homepage
